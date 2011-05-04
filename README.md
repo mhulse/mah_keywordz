@@ -33,6 +33,10 @@ Common and duplicate words will be removed from the output string.
     
     Default value is _"0"_, which will return all of the keywords; Specify a whole number, greater than zero, if you want to limit the number of keywords returned.
 
+* __"delimiter"__
+    
+    Default value is a _","_ between each of the keywords.
+
 ## Usage example:
 
     This: 
