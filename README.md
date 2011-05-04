@@ -27,7 +27,7 @@ Common and duplicate words will be removed from the output string.
 
 * __"order"__
     
-    Default value is _"descending"; _"ascending"_ is the alternative value.
+    Default value is _"descending"_; _"ascending"_ is the alternative value.
 
 * __"limit"__
     
