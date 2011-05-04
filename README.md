@@ -25,7 +25,7 @@ Common and duplicate words will be removed from the output string.
     
     Default value is _“length”_, which will sort keywords by length descending (longest word first); _“alphabetical”_ is the other option, which will sort the keywords alphabetically.
 
-* __"sort"__
+* __"order"__
     
     Default value is _"descending"; _"ascending"_ is the alternative value.
 
@@ -38,12 +38,12 @@ Common and duplicate words will be removed from the output string.
     This: 
     {exp:mah_keywordz delimiter="|" default="foo,bar,baz,bing"}Say hello to the most flexible web publishing system you'll ever meet. ExpressionEngine is a flexible, feature-rich content management system that empowers thousands of individuals, organizations, and companies around the world to easily manage their website. If you're tired of the limitations of your current CMS then take ExpressionEngine for a spin...{/exp:mah_keywordz}
     Returns: 
-    > expressionengine|organizations|limitations|individuals|publishing|management|companies|thousands|flexible|empowers|content|website|feature|current|easily|system|manage|tired|world|spin|meet|rich|web|cms
+    expressionengine|organizations|limitations|individuals|publishing|management|companies|thousands|flexible|empowers|content|website|feature|current|easily|system|manage|tired|world|spin|meet|rich|web|cms
 
     This: 
     {exp:mah_keywordz sort="alphabetical" order="ascending" limit="5" string="Say hello to the most flexible web publishing system you'll ever meet. ExpressionEngine is a flexible, feature-rich content management system that empowers thousands of individuals, organizations, and companies around the world to easily manage their website. If you're tired of the limitations of your current CMS then take ExpressionEngine for a spin..." default="foo,bar,baz,bing"}
     Returns: 
-    > world,website,web,tired,thousands
+    world,website,web,tired,thousands
 
 ## TODO:
 
